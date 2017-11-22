@@ -1,0 +1,6 @@
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.aliyuncsb\bin\Debug\BizTalk.Adapter.AssemblyExecute.aliyuncsb.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.aliyuncsb\bin\Debug\BizTalk.Adapter.AssemblyExecute.aliyuncsb.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.aliyuncsb\obj\Debug\BizTalk.Adapter.AssemblyExecute.aliyuncsb.csprojResolveAssemblyReference.cache
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.aliyuncsb\obj\Debug\BizTalk.Adapter.AssemblyExecute.aliyuncsb.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.aliyuncsb\obj\Debug\BizTalk.Adapter.AssemblyExecute.aliyuncsb.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.aliyuncsb\bin\Debug\Newtonsoft.Json.dll

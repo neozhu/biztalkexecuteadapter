@@ -1,0 +1,13 @@
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\WindowsFormsApplication1\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\WindowsFormsApplication1\bin\Debug\BizTalk.Adapter.DesignTime.AssemblySelectEditor.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\WindowsFormsApplication1\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\WindowsFormsApplication1\bin\Debug\BizTalk.Adapter.DesignTime.AssemblySelectEditor.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\WindowsFormsApplication1\bin\Debug\ICSharpCode.TextEditorEx.dll

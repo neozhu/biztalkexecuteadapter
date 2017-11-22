@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:baf="BiztalkAdapterFramework.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:import namespace="BiztalkAdapterFramework.xsd" />
+	<xs:element name="Config">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="batchSize" type="xs:int" minOccurs="1" default="10">
+					<xs:annotation>
+						<xs:appinfo>
+							<baf:designer>
+								<baf:displayname _locID="batchSizeName">Batch size</baf:displayname>
+								<baf:description _locID="batchSizeDesc">The maximum number of messages in a batch.</baf:description>
+							</baf:designer>
+						</xs:appinfo>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="TimeOut" type="xs:int">
+<xs:annotation>
+<xs:appinfo>
+<baf:designer>
+<baf:displayname _locID="TimeOutName">Edit this field in the resource file</baf:displayname>
+<baf:description _locID="TimeOutDesc">Edit this field in the resource file</baf:description>
+</baf:designer>
+</xs:appinfo>
+</xs:annotation>
+</xs:element>
+
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

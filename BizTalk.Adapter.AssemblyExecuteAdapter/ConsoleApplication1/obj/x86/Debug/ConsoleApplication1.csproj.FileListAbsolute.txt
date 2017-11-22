@@ -1,0 +1,7 @@
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\ConsoleApplication1\bin\Debug\BizTalk.Adapter.AssemblyExecute.aliyuncsb.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\ConsoleApplication1\bin\Debug\BizTalk.Adapter.AssemblyExecute.aliyuncsb.pdb

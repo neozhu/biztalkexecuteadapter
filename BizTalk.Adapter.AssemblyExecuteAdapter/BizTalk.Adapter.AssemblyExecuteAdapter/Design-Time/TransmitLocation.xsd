@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:baf="BiztalkAdapterFramework.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:import namespace="BiztalkAdapterFramework.xsd" />
+	<xs:element name="Config">
+		<xs:complexType>
+			<xs:sequence>
+        <xs:element name="FunctionName" type="xs:string">
+          <xs:annotation>
+            <xs:appinfo>
+              <baf:designer>
+                <baf:displayname _locID="FunctionNameName">Edit this field in the resource file</baf:displayname>
+                <baf:description _locID="FunctionNameDesc">Edit this field in the resource file</baf:description>
+              </baf:designer>
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:element>
+        
+				<xs:element name="AssemblyName" type="xs:string">
+<xs:annotation>
+<xs:appinfo>
+<baf:designer>
+<baf:displayname _locID="AssemblyNameName">Edit this field in the resource file</baf:displayname>
+<baf:description _locID="AssemblyNameDesc">Edit this field in the resource file</baf:description>
+  <baf:editor assembly="BizTalk.Adapter.DesignTime.AssemblySelectEditor.dll">BizTalk.Adapter.DesignTime.AssemblySelectEditor.SchemaAssemblySelectTypeEditor</baf:editor>
+</baf:designer>
+</xs:appinfo>
+</xs:annotation>
+</xs:element>
+<xs:element name="InputParameterXml" type="xs:string">
+<xs:annotation>
+<xs:appinfo>
+<baf:designer>
+<baf:displayname _locID="InputParameterXmlName">Edit this field in the resource file</baf:displayname>
+<baf:description _locID="InputParameterXmlDesc">Edit this field in the resource file</baf:description>
+<baf:editor assembly="BizTalk.Adapter.DesignTime.XmlEditor.dll"> BizTalk.Adapter.DesignTime.XmlEditor.XmlUITypeEditor</baf:editor>
+</baf:designer>
+</xs:appinfo>
+</xs:annotation>
+</xs:element>
+<xs:element name="SaveResponseMessagePath" type="xs:string">
+<xs:annotation>
+<xs:appinfo>
+<baf:designer>
+<baf:displayname _locID="SaveResponseMessagePathName">Edit this field in the resource file</baf:displayname>
+<baf:description _locID="SaveResponseMessagePathDesc">Edit this field in the resource file</baf:description>
+  <baf:editor assembly="BizTalk.Adapter.DesignTime.XmlEditor.dll"> BizTalk.Adapter.DesignTime.XmlEditor.FolderBrowserDialogUITypeEditor</baf:editor>
+</baf:designer>
+</xs:appinfo>
+</xs:annotation>
+</xs:element>
+<xs:element name="SaveErrorMessagePath" type="xs:string">
+<xs:annotation>
+<xs:appinfo>
+<baf:designer>
+<baf:displayname _locID="SaveErrorMessagePathName">Edit this field in the resource file</baf:displayname>
+<baf:description _locID="SaveErrorMessagePathDesc">Edit this field in the resource file</baf:description>
+  <baf:editor assembly="BizTalk.Adapter.DesignTime.XmlEditor.dll"> BizTalk.Adapter.DesignTime.XmlEditor.FolderBrowserDialogUITypeEditor</baf:editor>
+</baf:designer>
+</xs:appinfo>
+</xs:annotation>
+</xs:element>
+
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

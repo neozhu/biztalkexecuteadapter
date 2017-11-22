@@ -1,0 +1,7 @@
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.DesignTime.XmlEditor\bin\Release\BizTalk.Adapter.DesignTime.XmlEditor.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.DesignTime.XmlEditor\bin\Release\BizTalk.Adapter.DesignTime.XmlEditor.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.DesignTime.XmlEditor\obj\Release\BizTalk.Adapter.DesignTime.XmlEditor.XmlEditForm.resources
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.DesignTime.XmlEditor\obj\Release\BizTalk.Adapter.DesignTime.XmlEditor.csproj.GenerateResource.Cache
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.DesignTime.XmlEditor\obj\Release\BizTalk.Adapter.DesignTime.XmlEditor.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.DesignTime.XmlEditor\obj\Release\BizTalk.Adapter.DesignTime.XmlEditor.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.DesignTime.XmlEditor\bin\Release\ICSharpCode.TextEditorEx.dll

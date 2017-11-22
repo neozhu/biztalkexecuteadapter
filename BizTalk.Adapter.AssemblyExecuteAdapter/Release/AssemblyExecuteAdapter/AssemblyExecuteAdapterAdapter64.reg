@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Classes\CLSID\{87138329-8d36-4332-816c-efd6245963e0}]
+@="AssemblyExecuteAdapter Adapter"
+"AppID"="{30f53478-c7f0-4894-9f25-ecce69e69106}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Classes\CLSID\{87138329-8d36-4332-816c-efd6245963e0}\BizTalk]
+@="BizTalk"
+"TransPortType"="AssemblyExecuteAdapter"
+"Constraints"=dword:00002502
+
+"OutboundProtocol_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A283}"
+"TransmitLocation_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A282}"
+
+"OutboundEngineCLSID"="{3383d99d-0ae3-44cf-b36e-9e0e30d8e62b}"
+"OutboundTypeName"="BizTalk.Adapters.Runtime.AssemblyExecuteAdapterTransmitter.AssemblyExecuteAdapterTransmitAdapter"
+"OutboundAssemblyPath"="D:\\Build\\Adapters\\AssemblyExecuteAdapter\\AssemblyExecuteAdapterTransmitAdapter.dll"
+
+"AdapterMgmtTypeName"="BizTalk.Adapters.AssemblyExecuteAdapterDesignTime.AdapterManagement"
+"AdapterMgmtAssemblyPath"="D:\\Build\\Adapters\\AssemblyExecuteAdapter\\AssemblyExecuteAdapterAdapterManagement.dll"
+
+"AliasesXML"="<AdapterAliasList><AdapterAlias>AssemblyExecuteAdapter://</AdapterAlias></AdapterAliasList>"
+"PropertyNameSpace"="http://biztalk.adpater/assemblyexecuteadapter"
+
+"SendHandlerPropertiesXML"="<CustomProps><AdapterConfig vt=\"8\"/></CustomProps>"
+"SendLocationPropertiesXML"="<CustomProps><AdapterConfig vt=\"8\"/></CustomProps>"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Classes\CLSID\{87138329-8d36-4332-816c-efd6245963e0}\Implemented Categories]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Classes\CLSID\{87138329-8d36-4332-816c-efd6245963e0}\Implemented Categories\{7F46FC3E-3C2C-405B-A47F-8D17942BA8F9}]

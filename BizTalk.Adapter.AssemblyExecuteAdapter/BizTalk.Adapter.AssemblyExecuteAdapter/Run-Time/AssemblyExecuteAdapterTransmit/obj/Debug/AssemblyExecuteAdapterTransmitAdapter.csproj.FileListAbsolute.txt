@@ -1,0 +1,6 @@
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\obj\Debug\AssemblyExecuteAdapterTransmitAdapter.csprojResolveAssemblyReference.cache
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\obj\Debug\AssemblyExecuteAdapterTransmitAdapter.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\AssemblyExecuteAdapterTransmitAdapter.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\AssemblyExecuteAdapterTransmitAdapter.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\Microsoft.Samples.BizTalk.Adapter.Common.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\obj\Debug\AssemblyExecuteAdapterTransmitAdapter.pdb
