@@ -1,7 +1,5 @@
 # biztalkexecuteadapter
-# BizTalk custom adapter
-
-AssemblyExecuteAdapter
+##AssemblyExecuteAdapter
 
 ## 功能
 
