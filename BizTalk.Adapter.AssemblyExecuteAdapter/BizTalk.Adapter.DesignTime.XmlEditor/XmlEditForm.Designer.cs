@@ -70,11 +70,17 @@
             // 
             // xmlTextEditor
             // 
-            this.xmlTextEditor.Dock = System.Windows.Forms.DockStyle.Top;
+            this.xmlTextEditor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.xmlTextEditor.FoldingStrategy = "XML";
+            this.xmlTextEditor.Font = new System.Drawing.Font("Courier New", 9F);
+            this.xmlTextEditor.IsIconBarVisible = true;
             this.xmlTextEditor.Location = new System.Drawing.Point(0, 0);
             this.xmlTextEditor.Name = "xmlTextEditor";
-            this.xmlTextEditor.ShowInvalidLines = false;
+            this.xmlTextEditor.ShowVRuler = false;
             this.xmlTextEditor.Size = new System.Drawing.Size(512, 274);
+            this.xmlTextEditor.SyntaxHighlighting = "XML";
             this.xmlTextEditor.TabIndent = 2;
             this.xmlTextEditor.TabIndex = 0;
             // 

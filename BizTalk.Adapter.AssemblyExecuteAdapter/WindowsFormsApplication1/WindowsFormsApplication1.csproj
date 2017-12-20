@@ -13,6 +13,10 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
+    <SccProjectName>%24/WMSB2B/SourceCode/BizTalk.Adapter.AssemblyExecuteAdapter/WindowsFormsApplication1</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>http://172.20.70.35:8080/tfs/defaultcollection</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -80,6 +84,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BizTalk.Adapter.AssemblyExecute.httpsoappost\BizTalk.Adapter.AssemblyExecute.httpsoappost.csproj">
+      <Project>{E1C2473E-E22D-4963-81C2-6B138055F84A}</Project>
+      <Name>BizTalk.Adapter.AssemblyExecute.httpsoappost</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BizTalk.Adapter.AssemblyExecute.Interface\BizTalk.Adapter.AssemblyExecute.Interface.csproj">
       <Project>{0A6D075C-A3B7-49AE-BADA-90EEA5AA8CE8}</Project>
       <Name>BizTalk.Adapter.AssemblyExecute.Interface</Name>

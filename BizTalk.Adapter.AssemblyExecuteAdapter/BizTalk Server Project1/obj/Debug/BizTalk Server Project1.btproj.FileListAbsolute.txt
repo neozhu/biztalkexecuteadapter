@@ -1,0 +1,4 @@
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk Server Project1\bin\Debug\BizTalk Server Project1.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk Server Project1\bin\Debug\BizTalk Server Project1.pdb
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk Server Project1\obj\Debug\BizTalk Server Project1.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk Server Project1\obj\Debug\BizTalk Server Project1.pdb

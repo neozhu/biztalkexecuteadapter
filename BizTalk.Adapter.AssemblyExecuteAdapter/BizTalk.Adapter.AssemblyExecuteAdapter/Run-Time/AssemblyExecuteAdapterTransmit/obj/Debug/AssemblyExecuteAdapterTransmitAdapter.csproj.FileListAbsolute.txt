@@ -2,5 +2,11 @@ D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExe
 D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\obj\Debug\AssemblyExecuteAdapterTransmitAdapter.dll
 D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\AssemblyExecuteAdapterTransmitAdapter.dll
 D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\AssemblyExecuteAdapterTransmitAdapter.pdb
-D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\Microsoft.Samples.BizTalk.Adapter.Common.pdb
 D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\obj\Debug\AssemblyExecuteAdapterTransmitAdapter.pdb
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\AssemblyExecuteAdapterTransmitAdapter.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\AssemblyExecuteAdapterTransmitAdapter.pdb
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.pdb
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\obj\Debug\AssemblyExecuteAdapterTransmitAdapter.csprojResolveAssemblyReference.cache
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\obj\Debug\AssemblyExecuteAdapterTransmitAdapter.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\obj\Debug\AssemblyExecuteAdapterTransmitAdapter.pdb

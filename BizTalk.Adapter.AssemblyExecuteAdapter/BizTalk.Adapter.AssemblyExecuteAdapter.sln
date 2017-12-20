@@ -17,7 +17,52 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalk.Adapter.AssemblyExe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{9D128A37-0282-4BB1-BBF5-A4DDA8F46646}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalk.Adapter.AssemblyExecute.httpsoappost", "BizTalk.Adapter.AssemblyExecute.httpsoappost\BizTalk.Adapter.AssemblyExecute.httpsoappost.csproj", "{E1C2473E-E22D-4963-81C2-6B138055F84A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalk Server Project1", "BizTalk Server Project1\BizTalk Server Project1.btproj", "{860AC1D4-9E81-4988-A6E3-0FAA140781B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalk.Adapter.AssemblyExecute.httppost", "BizTalk.Adapter.AssemblyExecute.httppost\BizTalk.Adapter.AssemblyExecute.httppost.csproj", "{136E499C-65F8-4BBE-A760-6649173D3466}"
+EndProject
 Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.20.70.35:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BizTalk.Adapter.AssemblyExecuteAdapter\\Design-Time\\AdapterManagement.csproj
+		SccProjectName1 = BizTalk.Adapter.AssemblyExecuteAdapter/Design-Time
+		SccLocalPath1 = BizTalk.Adapter.AssemblyExecuteAdapter\\Design-Time
+		SccProjectUniqueName2 = BizTalk.Adapter.AssemblyExecuteAdapter\\Run-Time\\AssemblyExecuteAdapterTransmit\\AssemblyExecuteAdapterTransmitAdapter.csproj
+		SccProjectName2 = BizTalk.Adapter.AssemblyExecuteAdapter/Run-Time/AssemblyExecuteAdapterTransmit
+		SccLocalPath2 = BizTalk.Adapter.AssemblyExecuteAdapter\\Run-Time\\AssemblyExecuteAdapterTransmit
+		SccProjectUniqueName3 = BizTalk.Adapter.AssemblyExecute.Interface\\BizTalk.Adapter.AssemblyExecute.Interface.csproj
+		SccProjectName3 = BizTalk.Adapter.AssemblyExecute.Interface
+		SccLocalPath3 = BizTalk.Adapter.AssemblyExecute.Interface
+		SccProjectUniqueName4 = BizTalk.Adapter.DesignTime.AssemblySelectEditor\\BizTalk.Adapter.DesignTime.AssemblySelectEditor.csproj
+		SccProjectName4 = BizTalk.Adapter.DesignTime.AssemblySelectEditor
+		SccLocalPath4 = BizTalk.Adapter.DesignTime.AssemblySelectEditor
+		SccProjectUniqueName5 = WindowsFormsApplication1\\WindowsFormsApplication1.csproj
+		SccProjectName5 = WindowsFormsApplication1
+		SccLocalPath5 = WindowsFormsApplication1
+		SccProjectUniqueName6 = BizTalk.Adapter.DesignTime.XmlEditor\\BizTalk.Adapter.DesignTime.XmlEditor.csproj
+		SccProjectName6 = BizTalk.Adapter.DesignTime.XmlEditor
+		SccLocalPath6 = BizTalk.Adapter.DesignTime.XmlEditor
+		SccProjectUniqueName7 = BizTalk.Adapter.AssemblyExecute.aliyuncsb\\BizTalk.Adapter.AssemblyExecute.aliyuncsb.csproj
+		SccProjectName7 = BizTalk.Adapter.AssemblyExecute.aliyuncsb
+		SccLocalPath7 = BizTalk.Adapter.AssemblyExecute.aliyuncsb
+		SccProjectUniqueName8 = ConsoleApplication1\\ConsoleApplication1.csproj
+		SccProjectName8 = ConsoleApplication1
+		SccLocalPath8 = ConsoleApplication1
+		SccProjectUniqueName9 = BizTalk.Adapter.AssemblyExecute.httpsoappost\\BizTalk.Adapter.AssemblyExecute.httpsoappost.csproj
+		SccProjectName9 = BizTalk.Adapter.AssemblyExecute.httpsoappost
+		SccLocalPath9 = BizTalk.Adapter.AssemblyExecute.httpsoappost
+		SccProjectUniqueName10 = BizTalk\u0020Server\u0020Project1\\BizTalk\u0020Server\u0020Project1.btproj
+		SccProjectName10 = BizTalk\u0020Server\u0020Project1
+		SccLocalPath10 = BizTalk\u0020Server\u0020Project1
+		SccProjectUniqueName11 = BizTalk.Adapter.AssemblyExecute.httppost\\BizTalk.Adapter.AssemblyExecute.httppost.csproj
+		SccProjectName11 = BizTalk.Adapter.AssemblyExecute.httppost
+		SccLocalPath11 = BizTalk.Adapter.AssemblyExecute.httppost
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -107,6 +152,40 @@ Global
 		{9D128A37-0282-4BB1-BBF5-A4DDA8F46646}.Release|Mixed Platforms.Build.0 = Release|x86
 		{9D128A37-0282-4BB1-BBF5-A4DDA8F46646}.Release|x86.ActiveCfg = Release|x86
 		{9D128A37-0282-4BB1-BBF5-A4DDA8F46646}.Release|x86.Build.0 = Release|x86
+		{E1C2473E-E22D-4963-81C2-6B138055F84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C2473E-E22D-4963-81C2-6B138055F84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C2473E-E22D-4963-81C2-6B138055F84A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E1C2473E-E22D-4963-81C2-6B138055F84A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E1C2473E-E22D-4963-81C2-6B138055F84A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E1C2473E-E22D-4963-81C2-6B138055F84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C2473E-E22D-4963-81C2-6B138055F84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C2473E-E22D-4963-81C2-6B138055F84A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E1C2473E-E22D-4963-81C2-6B138055F84A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E1C2473E-E22D-4963-81C2-6B138055F84A}.Release|x86.ActiveCfg = Release|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{860AC1D4-9E81-4988-A6E3-0FAA140781B7}.Release|x86.ActiveCfg = Release|Any CPU
+		{136E499C-65F8-4BBE-A760-6649173D3466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136E499C-65F8-4BBE-A760-6649173D3466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136E499C-65F8-4BBE-A760-6649173D3466}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{136E499C-65F8-4BBE-A760-6649173D3466}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{136E499C-65F8-4BBE-A760-6649173D3466}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{136E499C-65F8-4BBE-A760-6649173D3466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136E499C-65F8-4BBE-A760-6649173D3466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136E499C-65F8-4BBE-A760-6649173D3466}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{136E499C-65F8-4BBE-A760-6649173D3466}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{136E499C-65F8-4BBE-A760-6649173D3466}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

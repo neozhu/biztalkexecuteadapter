@@ -6,3 +6,10 @@ D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExe
 D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\AssemblyExecuteAdapterAdapterManagement.dll
 D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\AssemblyExecuteAdapterAdapterManagement.pdb
 D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\Microsoft.Samples.BizTalk.Adapter.Common.pdb
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\AssemblyExecuteAdapterAdapterManagement.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\AssemblyExecuteAdapterAdapterManagement.pdb
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\obj\Debug\AdapterManagement.csprojResolveAssemblyReference.cache
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\obj\Debug\BizTalk.Adapters.AssemblyExecuteAdapterDesignTime.AssemblyExecuteAdapterAdapterResource.resources
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\obj\Debug\AdapterManagement.csproj.GenerateResource.Cache
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\obj\Debug\AssemblyExecuteAdapterAdapterManagement.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\obj\Debug\AssemblyExecuteAdapterAdapterManagement.pdb

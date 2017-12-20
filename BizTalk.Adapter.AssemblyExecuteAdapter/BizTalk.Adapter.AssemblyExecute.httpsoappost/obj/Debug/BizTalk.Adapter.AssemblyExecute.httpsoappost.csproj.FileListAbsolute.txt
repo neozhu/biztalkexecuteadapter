@@ -1,0 +1,12 @@
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httpsoappost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.csprojResolveAssemblyReference.cache
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httpsoappost\bin\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httpsoappost\bin\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httpsoappost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httpsoappost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.pdb
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httpsoappost\bin\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httpsoappost\bin\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.pdb
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httpsoappost\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httpsoappost\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.pdb
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httpsoappost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.csprojResolveAssemblyReference.cache
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httpsoappost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httpsoappost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.pdb

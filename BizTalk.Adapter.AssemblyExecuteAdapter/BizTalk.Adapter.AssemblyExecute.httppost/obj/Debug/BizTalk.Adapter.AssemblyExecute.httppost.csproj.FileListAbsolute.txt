@@ -1,0 +1,14 @@
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httppost.csprojResolveAssemblyReference.cache
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\bin\Debug\BizTalk.Adapter.AssemblyExecute.httppost.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\bin\Debug\BizTalk.Adapter.AssemblyExecute.httppost.pdb
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httppost.dll
+D:\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httppost.pdb
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\bin\Debug\BizTalk.Adapter.AssemblyExecute.httppost.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\bin\Debug\BizTalk.Adapter.AssemblyExecute.httppost.pdb
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.pdb
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httppost.csprojResolveAssemblyReference.cache
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httppost.dll
+D:\SourceCode\Biztalk.Training\BizTalk.Adapter.AssemblyExecuteAdapter\BizTalk.Adapter.AssemblyExecute.httppost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httppost.pdb

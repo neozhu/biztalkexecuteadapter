@@ -133,16 +133,10 @@ namespace BizTalk.Adapters.Runtime.AssemblyExecuteAdapterTransmitter
         private Stream SendAssemblyExecuteAdapterRequest(IBaseMessage msg, AssemblyExecuteAdapterTransmitProperties config)
         {
 			VirtualStream responseStream = null;
-
-		 
-
-            // Note: both the body part and the stream maybe null, so we need to 
-            // check for them
             string charset = string.Empty;
             IBaseMessagePart bodyPart = msg.BodyPart;
             Stream btsStream;
             string messageid = msg.MessageID.ToString("D");
-
             if (null != bodyPart && (null != (btsStream = bodyPart.GetOriginalDataStream())))
 			{
                 try
@@ -156,64 +150,45 @@ namespace BizTalk.Adapters.Runtime.AssemblyExecuteAdapterTransmitter
                         inputXml.LoadXml(config.InputParameterXml);
                         inputparameters = assemblyexecute.GetInputParameter(inputXml);
                     }
-                    Stream stream = assemblyexecute.ExecuteResponse(btsStream, inputparameters);
-
-
+                    Stream responsestream = assemblyexecute.ExecuteResponse(btsStream, inputparameters);
                     #region saveresponsemessage
                     string responsefilename = string.Empty;
-                    if (config.SaveResponseMessagePath != string.Empty && config.SaveResponseMessagePath != "N")
+                    if (config.SaveResponseMessagePath != string.Empty && config.SaveResponseMessagePath != "N" && responsestream!=null)
                     {
                         if (!Directory.Exists(config.SaveResponseMessagePath))
                             Directory.CreateDirectory(config.SaveResponseMessagePath);
 
                         responsefilename = Path.Combine(config.SaveResponseMessagePath, "res_" + messageid + ".txt");
-                        SaveFile(responsefilename, stream);
-                        stream.Seek(0, SeekOrigin.Begin);
+                        SaveFile(responsefilename, responsestream);
+                        responsestream.Seek(0, SeekOrigin.Begin);
                     }
-
-
                     #endregion
-
                     if (config.IsTwoWay)
                     {
-                        // Copy the network stream into a virtual stream stream. If we were
-
-                        responseStream = new VirtualStream(stream);
-
-
+                        responseStream = new VirtualStream(responsestream);
                     }
                 }
                 catch(Exception e)
                 {
-
                     #region saveerrormessage
                     string errorfilename = string.Empty;
                     if (config.SaveErrorMessagePath != string.Empty && config.SaveErrorMessagePath != "N") {
                         if (!Directory.Exists(config.SaveErrorMessagePath))
                             Directory.CreateDirectory(config.SaveErrorMessagePath);
 
-                        errorfilename = Path.Combine(config.SaveErrorMessagePath ,messageid + ".txt");
+                        errorfilename = Path.Combine(config.SaveErrorMessagePath ,"req_"+messageid + ".txt");
                         SaveFile(errorfilename, btsStream);
                     }
 
 
                     #endregion
-
                     string Source = "AssemblyExecuteAdapter";
                     string Log = "Application";
                     string Event = e.Message + "\r\n request message saved :" + errorfilename;
-
                     if (!EventLog.SourceExists(Source))
                         EventLog.CreateEventSource(Source, Log);
 
                     EventLog.WriteEntry(Source, Event, EventLogEntryType.Error);
-
-
-
-                   
-
-
-
                     throw;
                 }
 			}
@@ -222,9 +197,16 @@ namespace BizTalk.Adapters.Runtime.AssemblyExecuteAdapterTransmitter
 
         private void SaveFile(String path, Stream stream)
         {
-            var fileStream = new FileStream(path, FileMode.Create, FileAccess.Write);
-            stream.CopyTo(fileStream);
-            fileStream.Dispose();
+            if (stream.CanSeek)
+            {
+                stream.Seek(0, SeekOrigin.Begin);
+            }
+            using (var fileStream = new FileStream(path, FileMode.Create, FileAccess.Write))
+            {
+                stream.CopyTo(fileStream);
+                fileStream.Flush();
+                fileStream.Close();
+            }
         }
     }
 }
