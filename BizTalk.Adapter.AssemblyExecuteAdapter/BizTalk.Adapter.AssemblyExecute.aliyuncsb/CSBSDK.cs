@@ -33,7 +33,8 @@ namespace BizTalk.Adapter.AssemblyExecute.aliyuncsb
                             res1xpath = el.Element("res1xpath").Value,
                             res2xpath = el.Element("res2xpath").Value,
                             tag = el.Element("tag").Value,
-                            saveerrorresponse = el.Element("saveerrorresponse").Value
+                            saveerrorresponse = el.Element("saveerrorresponse").Value,
+                            saverequestdata = el.Element("saverequestdata").Value
                            
                         }
                                            ;
@@ -58,9 +59,10 @@ namespace BizTalk.Adapter.AssemblyExecute.aliyuncsb
                 XmlDocument doc = new XmlDocument();
                 doc.Load(stream);
                 request.jsonstring = JsonConvert.SerializeXmlNode(doc, Newtonsoft.Json.Formatting.None, true);
+                SaveRequestData(request.jsonstring, para.saverequestdata, para.functionname);
                 string response = client.getResult(request);
                 //如果返回不是空就是说明是异常
-                if (string.IsNullOrEmpty(response))
+                if (string.IsNullOrEmpty(response.Trim()) || !IsValidJsonString(response))
                 {
                     WriteLog(stream, para);
                     return null;
@@ -90,6 +92,19 @@ namespace BizTalk.Adapter.AssemblyExecute.aliyuncsb
             {
                 //WriteLog(stream, e.Message, para);
                 throw e;
+            }
+        }
+        public   bool IsValidJsonString(string strInput)
+        {
+            strInput = strInput.Trim();
+            if (((strInput.StartsWith("{") && strInput.EndsWith("}")) || //For object
+                (strInput.StartsWith("[") && strInput.EndsWith("]"))) && strInput.Length >2) //For array
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
         public string GetError(Stream stream, string xpath)
@@ -157,6 +172,16 @@ namespace BizTalk.Adapter.AssemblyExecute.aliyuncsb
             var item = q.FirstOrDefault();
             return item == null ? "" : item.Value;
         }
+        private void SaveRequestData(string jsonstring, string path, string prefix)
+        {
+            if (!string.IsNullOrEmpty(path) && path != "N")
+            {
+                if (!Directory.Exists(path))
+                    Directory.CreateDirectory(path);
+                var filename = Path.Combine(path, prefix + "_" + Guid.NewGuid() + ".json");
+                File.WriteAllText(filename, jsonstring);
+            }
+        }
     }
 
     public class InputParameters
@@ -178,6 +203,7 @@ namespace BizTalk.Adapter.AssemblyExecute.aliyuncsb
         public string res1xpath { get; set; }
         public string res2xpath { get; set; }
         public string saveerrorresponse { get; set; }
+        public string saverequestdata { get; set; }
 
     }
 }
