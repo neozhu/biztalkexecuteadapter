@@ -1,0 +1,14 @@
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\obj\Debug\AdapterManagement.csprojResolveAssemblyReference.cache
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\obj\Debug\BizTalk.Adapters.AssemblyExecuteAdapterDesignTime.AssemblyExecuteAdapterAdapterResource.resources
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\obj\Debug\AdapterManagement.csproj.GenerateResource.Cache
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\AssemblyExecuteAdapterAdapterManagement.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\AssemblyExecuteAdapterAdapterManagement.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\Microsoft.BizTalk.Pipeline.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\EnvDTE.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\stdole.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\Microsoft.XLANGs.BizTalk.Engine.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\Microsoft.XLANGs.Engine.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\bin\Debug\EnvDTE.xml
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\obj\Debug\AssemblyExecuteAdapterAdapterManagement.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Design-Time\obj\Debug\AssemblyExecuteAdapterAdapterManagement.pdb

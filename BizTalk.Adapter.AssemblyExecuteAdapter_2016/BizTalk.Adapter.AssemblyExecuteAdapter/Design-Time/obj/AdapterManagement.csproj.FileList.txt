@@ -1,0 +1,11 @@
+bin\Debug\AssemblyExecuteAdapterAdapterManagement.dll
+bin\Debug\AssemblyExecuteAdapterAdapterManagement.pdb
+bin\Debug\Microsoft.Samples.BizTalk.Adapter.Common.dll
+bin\Debug\Microsoft.Samples.BizTalk.Adapter.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BizTalk.Adapters.AssemblyExecuteAdapterDesignTime.TransmitHandler.xsd
+obj\Debug\BizTalk.Adapters.AssemblyExecuteAdapterDesignTime.TransmitLocation.xsd
+obj\Debug\BizTalk.Adapters.AssemblyExecuteAdapterDesignTime.AssemblyExecuteAdapterAdapterResource.resources
+obj\Debug\AdapterManagement.csproj.GenerateResource.Cache
+obj\Debug\AssemblyExecuteAdapterAdapterManagement.dll
+obj\Debug\AssemblyExecuteAdapterAdapterManagement.pdb

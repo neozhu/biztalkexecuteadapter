@@ -1,0 +1,9 @@
+bin\Debug\AssemblyExecuteAdapterTransmitAdapter.dll
+bin\Debug\AssemblyExecuteAdapterTransmitAdapter.pdb
+bin\Debug\Microsoft.Samples.BizTalk.Adapter.Common.dll
+bin\Debug\Microsoft.Samples.BizTalk.Adapter.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\AssemblyExecuteAdapterTransmitAdapter.dll
+obj\Debug\AssemblyExecuteAdapterTransmitAdapter.pdb
+bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.dll
+bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.pdb

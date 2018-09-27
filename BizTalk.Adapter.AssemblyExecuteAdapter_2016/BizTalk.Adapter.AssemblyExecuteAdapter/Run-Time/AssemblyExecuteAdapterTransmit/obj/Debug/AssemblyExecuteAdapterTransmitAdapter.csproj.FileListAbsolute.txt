@@ -1,0 +1,11 @@
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\obj\Debug\AssemblyExecuteAdapterTransmitAdapter.csprojResolveAssemblyReference.cache
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\AssemblyExecuteAdapterTransmitAdapter.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\AssemblyExecuteAdapterTransmitAdapter.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\Microsoft.BizTalk.Pipeline.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\Microsoft.XLANGs.BizTalk.Engine.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\Microsoft.XLANGs.Engine.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\obj\Debug\AssemblyExecuteAdapterTransmitAdapter.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecuteAdapter\Run-Time\AssemblyExecuteAdapterTransmit\obj\Debug\AssemblyExecuteAdapterTransmitAdapter.pdb

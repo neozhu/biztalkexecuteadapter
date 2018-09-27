@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2014 rel. 2 (x64) (http://www.altova.com) by 牛人的天下 (牛B公司) -->
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soapjms="http://www.w3.org/2010/soapjms/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://b2bt.goertek.com:5080/Gtk_CuVmi.common.ws.provider.shipNotice:shipNoticeProvider" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" name="shipNoticeProvider" targetNamespace="http://b2bt.goertek.com:5080/Gtk_CuVmi.common.ws.provider.shipNotice:shipNoticeProvider">
+	<wsdl:types>
+		<xsd:schema xmlns:tns="http://b2bt.goertek.com:5080/Gtk_CuVmi.common.ws.provider.shipNotice:shipNoticeProvider" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://b2bt.goertek.com:5080/Gtk_CuVmi.common.ws.provider.shipNotice:shipNoticeProvider">
+			<xsd:element name="shipNotice" type="tns:shipNotice"/>
+			<xsd:element name="shipNoticeResponse" type="tns:shipNoticeResponse"/>
+			<xsd:complexType name="shipNotice">
+				<xsd:sequence>
+					<xsd:element name="shipNoticeReq" nillable="true" type="tns:shipNoticeReq"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="shipNoticeReq">
+				<xsd:sequence>
+					<xsd:element name="ShipNotice" type="tns:ShipNotice"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="ShipNotice">
+				<xsd:sequence>
+					<xsd:element name="Head" type="tns:Head"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="Head">
+				<xsd:sequence>
+					<xsd:element name="SenderQulifier" type="tns:SenderQulifier"/>
+					<xsd:element name="SenderId" type="tns:SenderId"/>
+					<xsd:element name="ReceiverQualifier" type="tns:ReceiverQualifier"/>
+					<xsd:element name="ReceiverId" type="tns:ReceiverId"/>
+					<xsd:element name="DocumentDate" type="tns:DocumentDate"/>
+					<xsd:element name="DocumentId" type="tns:DocumentId"/>
+					<xsd:element name="AsnNo" type="tns:AsnNo"/>
+					<xsd:element name="AsnDate" type="tns:AsnDate"/>
+					<xsd:element name="ShippedDate" type="tns:ShippedDate"/>
+					<xsd:element minOccurs="0" name="Attribute1" type="tns:Attribute1"/>
+					<xsd:element minOccurs="0" name="Attribute2" type="tns:Attribute2"/>
+					<xsd:element minOccurs="0" name="Attribute3" type="tns:Attribute3"/>
+					<xsd:element maxOccurs="unbounded" name="Detail" type="tns:Detail"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:simpleType name="SenderQulifier">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="30"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="SenderId">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="30"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="ReceiverQualifier">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="30"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="ReceiverId">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="30"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="DocumentDate">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="19"/>
+					<xsd:maxLength value="19"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="DocumentId">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="30"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="AsnNo">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="30"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="AsnDate">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="19"/>
+					<xsd:maxLength value="19"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="ShippedDate">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="19"/>
+					<xsd:maxLength value="19"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute1">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="240"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute2">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="240"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute3">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="40"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:complexType name="Detail">
+				<xsd:sequence>
+					<xsd:element name="CustomerPoNo" type="tns:CustomerPoNo"/>
+					<xsd:element name="GrnNo" type="tns:GrnNo"/>
+					<xsd:element name="InvoiceNo" type="tns:InvoiceNo"/>
+					<xsd:element name="ShipToCode" type="tns:ShipToCode"/>
+					<xsd:element name="ShipToName" type="tns:ShipToName"/>
+					<xsd:element name="SiteCode" type="tns:SiteCode"/>
+					<xsd:element name="SiteName" type="tns:SiteName"/>
+					<xsd:element name="SupplierCode" type="tns:SupplierCode"/>
+					<xsd:element name="SupplierName" type="tns:SupplierName"/>
+					<xsd:element minOccurs="0" name="Attribute1" type="tns:Attribute12"/>
+					<xsd:element minOccurs="0" name="Attribute2" type="tns:Attribute22"/>
+					<xsd:element minOccurs="0" name="Attribute3" type="tns:Attribute32"/>
+					<xsd:element maxOccurs="unbounded" name="Item" type="tns:Item"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:simpleType name="CustomerPoNo">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="22"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="GrnNo">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="30"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="InvoiceNo">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="100"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="ShipToCode">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="60"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="ShipToName">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="60"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="SiteCode">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="60"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="SiteName">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="60"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="SupplierCode">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="60"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="SupplierName">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="60"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute12">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="240"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute22">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="240"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute32">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="40"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:complexType name="Item">
+				<xsd:sequence>
+					<xsd:element name="CustomerItemCode" type="tns:CustomerItemCode"/>
+					<xsd:element name="VendorItemCode" type="tns:VendorItemCode"/>
+					<xsd:element name="ManufactureCode" type="tns:ManufactureCode"/>
+					<xsd:element name="ItemQty" type="tns:ItemQty"/>
+					<xsd:element name="Unit" type="tns:Unit"/>
+					<xsd:element minOccurs="0" name="Attribute1" type="tns:Attribute13"/>
+					<xsd:element minOccurs="0" name="Attribute2" type="tns:Attribute23"/>
+					<xsd:element minOccurs="0" name="Attribute3" type="tns:Attribute33"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:simpleType name="CustomerItemCode">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="64"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="VendorItemCode">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="64"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="ManufactureCode">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="80"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="ItemQty">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="10"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Unit">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="3"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute13">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="240"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute23">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="240"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute33">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="40"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:complexType name="shipNoticeResponse">
+				<xsd:sequence>
+					<xsd:element name="shipNoticeRes" nillable="true" type="tns:shipNoticeRes"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="shipNoticeRes">
+				<xsd:sequence>
+					<xsd:element name="Response" type="tns:Response"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="Response">
+				<xsd:sequence>
+					<xsd:element name="DocumentId" type="xsd:string"/>
+					<xsd:element name="Code" type="xsd:string"/>
+					<xsd:element name="Message" type="xsd:string"/>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="shipNoticeProvider_PortType_shipNoticeResponse">
+		<wsdl:part name="parameters" element="tns:shipNoticeResponse"> </wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="shipNoticeProvider_PortType_shipNotice">
+		<wsdl:part name="parameters" element="tns:shipNotice"> </wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="shipNoticeProvider_PortType">
+		<wsdl:operation name="shipNotice">
+			<wsdl:input message="tns:shipNoticeProvider_PortType_shipNotice"> </wsdl:input>
+			<wsdl:output message="tns:shipNoticeProvider_PortType_shipNoticeResponse"> </wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="Gtk_CuVmi_common_ws_provider_shipNotice_shipNoticeProvider_Binder" type="tns:shipNoticeProvider_PortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="shipNotice">
+			<soap:operation soapAction="Gtk_CuVmi_common_ws_provider_shipNotice_shipNoticeProvider_Binder_shipNotice" style="document"/>
+			<wsdl:input>
+				<soap:body parts="parameters" use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body parts="parameters" use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="Gtk_CuVmi.common.ws.provider.shipNotice.shipNoticeProvider">
+		<wsdl:port name="Gtk_CuVmi_common_ws_provider_shipNotice_shipNoticeProvider_Port" binding="tns:Gtk_CuVmi_common_ws_provider_shipNotice_shipNoticeProvider_Binder">
+			<soap:address location="http://b2bt.goertek.com:5080/ws/Gtk_CuVmi.common.ws.provider.shipNotice:shipNoticeProvider/Gtk_CuVmi_common_ws_provider_shipNotice_shipNoticeProvider_Port"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soapjms="http://www.w3.org/2010/soapjms/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://b2bt.goertek.com:5080/Gtk_CuVmi.common.ws.provider.receiveAdvice:receiveAdviceProvider" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" name="receiveAdviceProvider" targetNamespace="http://b2bt.goertek.com:5080/Gtk_CuVmi.common.ws.provider.receiveAdvice:receiveAdviceProvider">
+<wsdl:types>
+<xsd:schema xmlns:tns="http://b2bt.goertek.com:5080/Gtk_CuVmi.common.ws.provider.receiveAdvice:receiveAdviceProvider" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://b2bt.goertek.com:5080/Gtk_CuVmi.common.ws.provider.receiveAdvice:receiveAdviceProvider">
+<xsd:element name="receiveAdvice" type="tns:receiveAdvice"/>
+<xsd:element name="receiveAdviceResponse" type="tns:receiveAdviceResponse"/>
+<xsd:complexType name="receiveAdvice">
+<xsd:sequence>
+<xsd:element name="receiveAdviceReq" nillable="true" type="tns:receiveAdviceReq"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="receiveAdviceReq">
+<xsd:sequence>
+<xsd:element name="ReceiveAdvice" type="tns:ReceiveAdvice"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="ReceiveAdvice">
+<xsd:sequence>
+<xsd:element name="Head" type="tns:Head"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="Head">
+<xsd:sequence>
+<xsd:element name="SenderQulifier" type="tns:SenderQulifier"/>
+<xsd:element name="SenderId" type="tns:SenderId"/>
+<xsd:element name="ReceiverQualifier" type="tns:ReceiverQualifier"/>
+<xsd:element name="ReceiverId" type="tns:ReceiverId"/>
+<xsd:element name="DocumentDate" type="tns:DocumentDate"/>
+<xsd:element name="DocumentId" type="tns:DocumentId"/>
+<xsd:element name="GrnNo" type="tns:GrnNo"/>
+<xsd:element name="ReceiveType" type="tns:ReceiveType"/>
+<xsd:element name="ReceiveDate" type="tns:ReceiveDate"/>
+<xsd:element name="InvoiceNo" type="tns:InvoiceNo"/>
+<xsd:element name="ShipToCode" type="tns:ShipToCode"/>
+<xsd:element name="ShipToName" type="tns:ShipToName"/>
+<xsd:element name="CustomerCode" type="tns:CustomerCode"/>
+<xsd:element name="CustomerName" type="tns:CustomerName"/>
+<xsd:element name="SupplierCode" type="tns:SupplierCode"/>
+<xsd:element name="SupplierName" type="tns:SupplierName"/>
+<xsd:element minOccurs="0" name="Attribute1" type="tns:Attribute1"/>
+<xsd:element minOccurs="0" name="Attribute2" type="tns:Attribute2"/>
+<xsd:element minOccurs="0" name="Attribute3" type="tns:Attribute3"/>
+<xsd:element maxOccurs="unbounded" name="Detail" type="tns:Detail"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:simpleType name="SenderQulifier">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="30"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="SenderId">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="30"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="ReceiverQualifier">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="30"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="ReceiverId">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="30"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="DocumentDate">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="19"/>
+<xsd:maxLength value="19"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="DocumentId">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="30"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="GrnNo">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="30"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="ReceiveType">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="3"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="ReceiveDate">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="19"/>
+<xsd:maxLength value="19"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="InvoiceNo">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="100"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="ShipToCode">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="60"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="ShipToName">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="60"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="CustomerCode">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="60"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="CustomerName">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="60"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="SupplierCode">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="60"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="SupplierName">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="60"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="Attribute1">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="0"/>
+<xsd:maxLength value="240"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="Attribute2">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="0"/>
+<xsd:maxLength value="240"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="Attribute3">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="0"/>
+<xsd:maxLength value="40"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:complexType name="Detail">
+<xsd:sequence>
+<xsd:element name="CustomerItemCode" type="tns:CustomerItemCode"/>
+<xsd:element name="SupplierItemCode" type="tns:SupplierItemCode"/>
+<xsd:element name="ReceiveQty" type="tns:ReceiveQty"/>
+<xsd:element minOccurs="0" name="Attribute1" type="tns:Attribute12"/>
+<xsd:element minOccurs="0" name="Attribute2" type="tns:Attribute22"/>
+<xsd:element minOccurs="0" name="Attribute3" type="tns:Attribute32"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:simpleType name="CustomerItemCode">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="48"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="SupplierItemCode">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="48"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="ReceiveQty">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="1"/>
+<xsd:maxLength value="15"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="Attribute12">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="0"/>
+<xsd:maxLength value="240"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="Attribute22">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="0"/>
+<xsd:maxLength value="240"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:simpleType name="Attribute32">
+<xsd:restriction base="xsd:string">
+<xsd:whiteSpace value="preserve"/>
+<xsd:minLength value="0"/>
+<xsd:maxLength value="40"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:complexType name="receiveAdviceResponse">
+<xsd:sequence>
+<xsd:element name="receiveAdviceRes" nillable="true" type="tns:receiveAdviceRes"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="receiveAdviceRes">
+<xsd:sequence>
+<xsd:element name="Response" type="tns:Response"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="Response">
+<xsd:sequence>
+<xsd:element name="DocumentId" type="xsd:string"/>
+<xsd:element name="Code" type="xsd:string"/>
+<xsd:element name="Message" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>
+</wsdl:types>
+<wsdl:message name="receiveAdviceProvider_PortType_receiveAdviceResponse">
+<wsdl:part name="parameters" element="tns:receiveAdviceResponse"> </wsdl:part>
+</wsdl:message>
+<wsdl:message name="receiveAdviceProvider_PortType_receiveAdvice">
+<wsdl:part name="parameters" element="tns:receiveAdvice"> </wsdl:part>
+</wsdl:message>
+<wsdl:portType name="receiveAdviceProvider_PortType">
+<wsdl:operation name="receiveAdvice">
+<wsdl:input message="tns:receiveAdviceProvider_PortType_receiveAdvice"> </wsdl:input>
+<wsdl:output message="tns:receiveAdviceProvider_PortType_receiveAdviceResponse"> </wsdl:output>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="Gtk_CuVmi_common_ws_provider_receiveAdvice_receiveAdviceProvider_Binder" type="tns:receiveAdviceProvider_PortType">
+<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="receiveAdvice">
+<soap:operation soapAction="Gtk_CuVmi_common_ws_provider_receiveAdvice_receiveAdviceProvider_Binder_receiveAdvice" style="document"/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:service name="Gtk_CuVmi.common.ws.provider.receiveAdvice.receiveAdviceProvider">
+<wsdl:port name="Gtk_CuVmi_common_ws_provider_receiveAdvice_receiveAdviceProvider_Port" binding="tns:Gtk_CuVmi_common_ws_provider_receiveAdvice_receiveAdviceProvider_Binder">
+<soap:address location="http://b2bt.goertek.com:5080/ws/Gtk_CuVmi.common.ws.provider.receiveAdvice:receiveAdviceProvider/Gtk_CuVmi_common_ws_provider_receiveAdvice_receiveAdviceProvider_Port"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

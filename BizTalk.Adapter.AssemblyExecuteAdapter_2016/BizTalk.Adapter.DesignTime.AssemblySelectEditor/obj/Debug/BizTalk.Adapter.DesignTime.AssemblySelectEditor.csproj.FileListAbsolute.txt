@@ -1,0 +1,9 @@
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.DesignTime.AssemblySelectEditor\bin\Debug\BizTalk.Adapter.DesignTime.AssemblySelectEditor.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.DesignTime.AssemblySelectEditor\bin\Debug\BizTalk.Adapter.DesignTime.AssemblySelectEditor.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.DesignTime.AssemblySelectEditor\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.DesignTime.AssemblySelectEditor\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.DesignTime.AssemblySelectEditor\obj\Debug\BizTalk.Adapter.DesignTime.AssemblySelectEditor.csprojResolveAssemblyReference.cache
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.DesignTime.AssemblySelectEditor\obj\Debug\BizTalk.Adapter.DesignTime.AssemblySelectEditor.AssemblyPopupForm.resources
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.DesignTime.AssemblySelectEditor\obj\Debug\BizTalk.Adapter.DesignTime.AssemblySelectEditor.csproj.GenerateResource.Cache
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.DesignTime.AssemblySelectEditor\obj\Debug\BizTalk.Adapter.DesignTime.AssemblySelectEditor.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.DesignTime.AssemblySelectEditor\obj\Debug\BizTalk.Adapter.DesignTime.AssemblySelectEditor.pdb

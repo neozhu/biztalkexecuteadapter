@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soapjms="http://www.w3.org/2010/soapjms/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://wfdszf-test-integration/Gtk_CuVmi.common.ws.provider.inventoryReport:inventoryReportProvider" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns1="http://b2bt.goertek.com:5080/Gtk_CuVmi.common.ws.provider.inventoryReport:inventoryReportProvider" name="inventoryReportProvider" targetNamespace="http://b2bt.goertek.com:5080/Gtk_CuVmi.common.ws.provider.inventoryReport:inventoryReportProvider">
+	<wsdl:types>
+		<xsd:schema xmlns:tns="http://b2bt.goertek.com:5080/Gtk_CuVmi.common.ws.provider.inventoryReport:inventoryReportProvider" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://b2bt.goertek.com:5080/Gtk_CuVmi.common.ws.provider.inventoryReport:inventoryReportProvider">
+			<xsd:element name="inventoryReport" type="tns:inventoryReport"/>
+			<xsd:element name="inventoryReportResponse" type="tns:inventoryReportResponse"/>
+			<xsd:complexType name="inventoryReport">
+				<xsd:sequence>
+					<xsd:element name="inventoryReportReq" nillable="true" type="tns:inventoryReportReq"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="inventoryReportReq">
+				<xsd:sequence>
+					<xsd:element name="InventoryReport" type="tns:InventoryReport"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="InventoryReport">
+				<xsd:sequence>
+					<xsd:element name="Head" type="tns:Head"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="Head">
+				<xsd:sequence>
+					<xsd:element name="SenderQulifier" type="tns:SenderQulifier"/>
+					<xsd:element name="SenderId" type="tns:SenderId"/>
+					<xsd:element name="ReceiverQualifier" type="tns:ReceiverQualifier"/>
+					<xsd:element name="ReceiverId" type="tns:ReceiverId"/>
+					<xsd:element name="DocumentDate" type="tns:DocumentDate"/>
+					<xsd:element name="DocumentId" type="tns:DocumentId"/>
+					<xsd:element name="InventoryDate" type="tns:InventoryDate"/>
+					<xsd:element name="StorageCode" type="tns:StorageCode"/>
+					<xsd:element name="StorageName" type="tns:StorageName"/>
+					<xsd:element minOccurs="0" name="Attribute1" type="tns:Attribute1"/>
+					<xsd:element minOccurs="0" name="Attribute2" type="tns:Attribute2"/>
+					<xsd:element minOccurs="0" name="Attribute3" type="tns:Attribute3"/>
+					<xsd:element maxOccurs="unbounded" name="Detail" type="tns:Detail"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:simpleType name="SenderQulifier">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="30"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="SenderId">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="30"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="ReceiverQualifier">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="30"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="ReceiverId">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="30"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="DocumentDate">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="19"/>
+					<xsd:maxLength value="19"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="DocumentId">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="30"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="InventoryDate">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="19"/>
+					<xsd:maxLength value="19"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="StorageCode">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="60"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="StorageName">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="60"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute1">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="240"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute2">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="240"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute3">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="40"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:complexType name="Detail">
+				<xsd:sequence>
+					<xsd:element name="CustomerPartNumber" type="tns:CustomerPartNumber"/>
+					<xsd:element name="SupplierPartNumber" type="tns:SupplierPartNumber"/>
+					<xsd:element name="CustomerCode" type="tns:CustomerCode"/>
+					<xsd:element name="CustomerName" type="tns:CustomerName"/>
+					<xsd:element name="SupplierCode" type="tns:SupplierCode"/>
+					<xsd:element name="SupplierName" type="tns:SupplierName"/>
+					<xsd:element name="DefectQty" type="tns:DefectQty"/>
+					<xsd:element name="UnknowQty" type="tns:UnknowQty"/>
+					<xsd:element name="GoodQty" type="tns:GoodQty"/>
+					<xsd:element name="HoldQty" type="tns:HoldQty"/>
+					<xsd:element name="Unit" type="tns:Unit"/>
+					<xsd:element minOccurs="0" name="Attribute1" type="tns:Attribute12"/>
+					<xsd:element minOccurs="0" name="Attribute2" type="tns:Attribute22"/>
+					<xsd:element minOccurs="0" name="Attribute3" type="tns:Attribute32"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:simpleType name="CustomerPartNumber">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="80"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="SupplierPartNumber">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="80"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="CustomerCode">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="60"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="CustomerName">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="60"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="SupplierCode">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="60"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="SupplierName">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="60"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="DefectQty">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="15"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="UnknowQty">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="15"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="GoodQty">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="15"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="HoldQty">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="15"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Unit">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="1"/>
+					<xsd:maxLength value="3"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute12">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="240"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute22">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="240"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:simpleType name="Attribute32">
+				<xsd:restriction base="xsd:string">
+					<xsd:whiteSpace value="preserve"/>
+					<xsd:minLength value="0"/>
+					<xsd:maxLength value="40"/>
+				</xsd:restriction>
+			</xsd:simpleType>
+			<xsd:complexType name="inventoryReportResponse">
+				<xsd:sequence>
+					<xsd:element name="inventoryReportRes" nillable="true" type="tns:inventoryReportRes"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="inventoryReportRes">
+				<xsd:sequence>
+					<xsd:element name="Response" type="tns:Response"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:complexType name="Response">
+				<xsd:sequence>
+					<xsd:element name="DocumentId" type="xsd:string"/>
+					<xsd:element name="Code" type="xsd:string"/>
+					<xsd:element name="Message" type="xsd:string"/>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="inventoryReportProvider_PortType_inventoryReport">
+		<wsdl:part name="parameters" element="tns1:inventoryReport"> </wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="inventoryReportProvider_PortType_inventoryReportResponse">
+		<wsdl:part name="parameters" element="tns1:inventoryReportResponse"> </wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="inventoryReportProvider_PortType">
+		<wsdl:operation name="inventoryReport">
+			<wsdl:input message="tns1:inventoryReportProvider_PortType_inventoryReport"> </wsdl:input>
+			<wsdl:output message="tns1:inventoryReportProvider_PortType_inventoryReportResponse"> </wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="Gtk_CuVmi_common_ws_provider_inventoryReport_inventoryReportProvider_Binder" type="tns1:inventoryReportProvider_PortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="inventoryReport">
+			<soap:operation soapAction="Gtk_CuVmi_common_ws_provider_inventoryReport_inventoryReportProvider_Binder_inventoryReport" style="document"/>
+			<wsdl:input>
+				<soap:body parts="parameters" use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body parts="parameters" use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="Gtk_CuVmi.common.ws.provider.inventoryReport.inventoryReportProvider">
+		<wsdl:port name="Gtk_CuVmi_common_ws_provider_inventoryReport_inventoryReportProvider_Port" binding="tns1:Gtk_CuVmi_common_ws_provider_inventoryReport_inventoryReportProvider_Binder">
+			<soap:address location="http://b2bt.goertek.com:5080/ws/Gtk_CuVmi.common.ws.provider.inventoryReport:inventoryReportProvider/Gtk_CuVmi_common_ws_provider_inventoryReport_inventoryReportProvider_Port"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

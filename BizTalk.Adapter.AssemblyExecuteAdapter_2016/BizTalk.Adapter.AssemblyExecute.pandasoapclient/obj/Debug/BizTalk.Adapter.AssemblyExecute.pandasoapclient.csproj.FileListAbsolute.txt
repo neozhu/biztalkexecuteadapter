@@ -1,0 +1,7 @@
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.pandasoapclient\bin\Debug\BizTalk.Adapter.AssemblyExecute.pandasoapclient.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.pandasoapclient\bin\Debug\BizTalk.Adapter.AssemblyExecute.pandasoapclient.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.pandasoapclient\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.pandasoapclient\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.pandasoapclient\obj\Debug\BizTalk.Adapter.AssemblyExecute.pandasoapclient.csprojResolveAssemblyReference.cache
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.pandasoapclient\obj\Debug\BizTalk.Adapter.AssemblyExecute.pandasoapclient.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.pandasoapclient\obj\Debug\BizTalk.Adapter.AssemblyExecute.pandasoapclient.pdb

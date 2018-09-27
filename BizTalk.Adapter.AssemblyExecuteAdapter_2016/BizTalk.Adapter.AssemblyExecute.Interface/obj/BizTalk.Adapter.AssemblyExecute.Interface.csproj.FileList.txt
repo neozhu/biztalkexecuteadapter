@@ -1,0 +1,5 @@
+bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.dll
+bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BizTalk.Adapter.AssemblyExecute.Interface.dll
+obj\Debug\BizTalk.Adapter.AssemblyExecute.Interface.pdb

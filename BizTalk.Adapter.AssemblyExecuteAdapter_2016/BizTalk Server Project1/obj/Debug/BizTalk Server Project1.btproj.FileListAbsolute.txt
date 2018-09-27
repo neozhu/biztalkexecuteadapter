@@ -1,0 +1,7 @@
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk Server Project1\bin\Debug\BizTalk Server Project1.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk Server Project1\bin\Debug\BizTalk Server Project1.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk Server Project1\bin\Debug\Microsoft.BizTalk.Pipeline.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk Server Project1\bin\Debug\Microsoft.BizTalk.TestTools.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk Server Project1\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk Server Project1\obj\Debug\BizTalk Server Project1.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk Server Project1\obj\Debug\BizTalk Server Project1.pdb

@@ -1,0 +1,7 @@
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httppost\bin\Debug\BizTalk.Adapter.AssemblyExecute.httppost.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httppost\bin\Debug\BizTalk.Adapter.AssemblyExecute.httppost.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httppost\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httppost\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httppost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httppost.csprojResolveAssemblyReference.cache
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httppost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httppost.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httppost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httppost.pdb

@@ -1,0 +1,7 @@
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httpsoappost\bin\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httpsoappost\bin\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httpsoappost\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httpsoappost\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httpsoappost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.csprojResolveAssemblyReference.cache
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httpsoappost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.httpsoappost\obj\Debug\BizTalk.Adapter.AssemblyExecute.httpsoappost.pdb

@@ -1,0 +1,9 @@
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.aliyuncsb\bin\Debug\BizTalk.Adapter.AssemblyExecute.aliyuncsb.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.aliyuncsb\bin\Debug\BizTalk.Adapter.AssemblyExecute.aliyuncsb.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.aliyuncsb\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.aliyuncsb\bin\Debug\Newtonsoft.Json.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.aliyuncsb\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.aliyuncsb\bin\Debug\BizTalk.Adapter.AssemblyExecute.Interface.pdb
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.aliyuncsb\obj\Debug\BizTalk.Adapter.AssemblyExecute.aliyuncsb.csprojResolveAssemblyReference.cache
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.aliyuncsb\obj\Debug\BizTalk.Adapter.AssemblyExecute.aliyuncsb.dll
+D:\WMSB2B\SourceCode\BizTalk.Adapter.AssemblyExecuteAdapter_2016\BizTalk.Adapter.AssemblyExecute.aliyuncsb\obj\Debug\BizTalk.Adapter.AssemblyExecute.aliyuncsb.pdb
